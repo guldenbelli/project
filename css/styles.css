@@ -63,11 +63,6 @@ a {
     height: 58px;
 }
 
-
-/* .fixed-bottom-bar {
-  padding-bottom: 58px;
-} */
-
 .h-auto {
     height: auto;
 }
@@ -75,7 +70,6 @@ a {
 .modal-footer .btn {
     border-radius: 0px;
 }
-
 
 /* Nav */
 
@@ -106,7 +100,6 @@ a {
     -webkit-filter: saturate(200%);
     filter: saturate(200%);
 }
-
 
 /* Grid Card */
 
@@ -680,30 +673,14 @@ p {
 
 /* Login Page */
 
-.login-page video {
-    width: 50%;
-    position: absolute;
-    bottom: 0;
-    right: 50%;
-}
-
-.otp input.form-control.form-control-lg {
-    text-align: center !important;
-    font-size: 44px;
-    border: 1px solid #ccc !important;
-    border-radius: 8px;
-    margin: auto;
-}
-
 .login-page {
     background: #fff;
 }
 
 .login-page .form-control {
-    background: no-repeat;
     border: none;
     color: #000;
-    border-bottom: 1px solid rgb(160 160 160 / 32%);
+    border-bottom: 1px solid;
     border-radius: 0px;
     padding: 0px;
     box-shadow: none !important;
@@ -725,34 +702,8 @@ p {
 }
 
 .login-page::placeholder {
-    /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgb(255 255 255 / 65%)!important;
     opacity: 1;
-    /* Firefox */
-    ;
-}
-
-.login-page:-ms-input-placeholder {
-    /* Internet Explorer 10-11 */
-    color: rgb(255 255 255 / 65%)!important;
-}
-
-.login-page::-ms-input-placeholder {
-    /* Microsoft Edge */
-    color: rgb(255 255 255 / 65%)!important;
-}
-
-
-/* Verification */
-
-.osahan-verification .form-control {
-    text-align: center;
-    font-size: 47px;
-    border-bottom: 2px solid #ccc !important;
-    border: none;
-    border-radius: 0px;
-    font-weight: 300;
-    box-shadow: none;
 }
 
 /* Filter */
@@ -779,123 +730,13 @@ p {
     background-color: #e23744;
 }
 
-/* Cart */
+/* Most Popular */
 
-.gold-members h6,
-.menu-list h6 {
-    font-size: 14px;
+.most_popular .slider img {
+    border-radius: 10px;
+    padding: 0px 4px;
+    margin: 8px 0 0 0;
 }
-
-.gold-members .badge,
-.menu-list .badge {
-    font-size: 10px;
-    font-weight: 500;
-    padding: 4px 6px 3px 6px;
-}
-
-.menu-list img {
-    width: 41px;
-    height: 41px;
-    object-fit: cover;
-}
-
-.count-number .btn {
-    padding: 2px 5px;
-    font-size: 12px;
-    border-radius: 0px;
-}
-
-.count-number-input {
-    width: 24px;
-    text-align: center;
-    margin: 0 -4px;
-    background: #6c757d;
-    border: none;
-    color: #fff;
-    height: 24px;
-    border-radius: 0px;
-    vertical-align: bottom;
-}
-
-.non_veg,
-.veg {
-    width: 20px;
-    border: 1px solid;
-    height: 20px;
-    border-radius: 3px;
-    font-size: 32px;
-    text-align: center;
-    line-height: 0px;
-}
-
-/* Restaurant */
-
-.restaurant-detailed-ratings-and-reviews hr {
-    margin: 0 -16px;
-}
-
-.reviews-members-footer img {
-    width: 22px;
-    height: 22px;
-    border: 2px solid #fff;
-    box-shadow: 0px 0px 12px #ccc;
-    margin: 0 -3px;
-}
-
-.total-like {
-    font-size: 11px;
-    padding: 2px 6px;
-}
-
-.reviews-members-body p {
-    font-size: 12px;
-}
-
-.reviews-members-header h6 {
-    font-size: 14px;
-}
-
-.graph-star-rating-body .progress {
-    border-radius: 40px;
-    height: 6px;
-}
-
-.rating-list {
-    display: flex;
-    margin: 6px 0;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.rating-list-center {
-    margin: auto;
-    width: 70%;
-}
-
-.rating-list-left {
-    width: 20%;
-    font-size: 10px !important;
-    font-weight: 400 !important;
-}
-
-.rating-list-right {
-    width: 10%;
-    text-align: right;
-    font-size: 10px !important;
-    font-weight: 400 !important;
-}
-
-.offer-section {
-    background-color: #000;
-}
-
-
-/* header-user-img */
-
-.header-user {
-    height: 32px;
-}
-
 
 /* dropdown css */
 
@@ -951,41 +792,6 @@ footer .text-muted {
     line-height: 23px;
 }
 
-
-/* orders css */
-
-.sc-osahan-logo {
-    height: 30px;
-}
-
-.custom-tabs.nav-tabs .nav-item.show .nav-link,
-.custom-tabs.nav-tabs .nav-link.active {
-    border-bottom: 2px solid #d92662 !important;
-}
-
-.search .nav-tabs .nav-item.show .nav-link,
-.search .nav-tabs .nav-link.active {
-    border-bottom: 2px solid #dc375d !important;
-    background-color: #dc375d !important;
-    color: #ffffff !important;
-}
-
-.order_img {
-    height: 88px;
-}
-
-
-/* offers image */
-
-.offers_img {
-    height: 130px;
-}
-
-.nav-tabs .nav-item.show .nav-link,
-.nav-tabs .nav-link.active {
-    border-bottom: 2px solid #dc375d !important;
-    color: #dc375d !important;
-}
 
 
 /* side bar sticky */
